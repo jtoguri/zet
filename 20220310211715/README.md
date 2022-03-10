@@ -4,6 +4,8 @@ A database is an organized collection of data, usually controlled by a database 
 
 ## Three main types of databases
 
-* Flat file database: stores data in flat files, very simple with no explicit relationships between records, can be plain text file or binary file
-* Non-relational database (No-SQL) ()
-* Relational database ()
+* **Flat file database**: stores data in flat files, very simple with no explicit relationships between records, can be plain text file or binary file
+* **Non-relational database** (NoSQL): do not use SQL, are minimally structured, data can be stored as key-value pair
+* **Relational database**: database that stores and provides access to data points that are related to one another, items are organized as a set of tables with columns and rows
+
+See also []()
