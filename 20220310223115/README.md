@@ -13,3 +13,6 @@ Five main parts to ERD:
 * **Relatioinship** - describes how one or more entities interact with each other, often described by a verb
 
 * **Cardinality** - the count of instances that are allowed or are necessary between entity relationships, rows we need from one table before we can link it to another table, minimum cardinality represents the min number of instances required in a relationship, maximum cardinality is the maximum number of instances allowed in the relationship
+
+TODO Follow up:
+* make a zet on crow's foot notation to represent cardinality
