@@ -1,4 +1,4 @@
-# Using joins in SQL
+# Using Joins in SQL
 
 By using joins, you can retrieve data from two or more tables based on logical relationships between the tables. Joins indicate how data from one table should be used to select the rows in another table.
 
