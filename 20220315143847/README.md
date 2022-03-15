@@ -14,11 +14,13 @@ The term **normalization** comes from the concept of normal forms, which describ
 
 The process of normalization organizes the data in a way that ***reduces redundancy***. This makes the data highly space-efficient on disk, however it can have trade-offs when retrieving large sets of related data.
 
+Often, solutions to normalization problems involve creating a new table.
+
 Normal Forms:
-1. **First Normal Form** - no table contains multiple columns that you could use to get the same information
+1. [**First Normal Form (1NF)**](https://github.com/jtoguri/zet/tree/main/20220315151043)
 1. **Second Normal Form** - split out columns into independent tables to reduce duplicate rows
 1. **Third Normal Form** - make sure each non-key element in each table provides information about the key in the row
-1. **Fourth Normal Form** - adding an additional table of relationships to show any mutli-to-one relationships
+1. **Fourth Normal Form** - adding an additional table of relationships to show any one-to-many relationships
 
 SOURCES:
 * [Normalization in Database](https://blog.udemy.com/normalization-in-database-with-example/)
