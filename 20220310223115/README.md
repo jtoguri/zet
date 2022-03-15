@@ -2,6 +2,8 @@
 
 A graphical representation of the data requirements for a database, meaning that it takes all of the parts for a database and puts them in a box-and-line form indicating the relationships between them.
 
+An Entity Relationship Diagram helps us design the schema of a database. Designing a database using an ERD can save a lot of time in implementation.
+
 Five main parts to ERD:
 
 * **Entity** - represents something that you want to track in a database, each occurence of an entity becomes an entity instance, which is a row in a table
