@@ -11,3 +11,4 @@ SOURCES:
 
 TODO:
 * Make zets on Linus Torvalds and Richard Stallman
+* extend this this zet to include Stallman's perspective
