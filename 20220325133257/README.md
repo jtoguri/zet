@@ -4,10 +4,12 @@
 
 * `exit`: end a terminal session, can also be done by closing the window or with `Ctrl-d`
 
-* `Ctrl-d`: sends an EOF (End-of-file) marker to bash, and bash exits when it receives this marker, similar to running the exit command.
+* `Ctrl-d`: sends an EOF (End-of-file) marker, used when a process is expecting more data (can be thought of as end-of-data), similar to running the exit command
 
 * `pwd`: print the name of the current working directory
 
-* `cd`: change directory
-
+* `cd`: change directory, with no additional flag goes to the current user's home directory (same as `~`)
+  * `cd -` changes to the previous working directory
+<!-- -->
 * `ls`: list directory contents
+  * `ls -a` is used to view hidden files in the directory (filenames beginning with a period)
