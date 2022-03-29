@@ -5,6 +5,12 @@
 > The ability to examine text files is important because many of the files that contain system settings (called **configuration files**) are stored in this format. Being able to read them gives us insight about how the system works.
 >
 >In addition, some of the actual programs that the system uses (called **scripts**) are stored in this format.
+>
+> The less program was designed as an improved replacement of an earlier Unix program called more. The name “less” is a play on the phrase “less is more”.
+>
+> less falls into the class of programs called “pagers”, programs that allow the easy viewing of long text documents in a page by page manner.
+>
+> Whereas the more program could only page forward, the less program allows paging both forward and backward and has many other features as well.
 
 Common keyboard commands used by `less`:
 * `Page Up` or `b`: Scroll back one page
@@ -26,3 +32,4 @@ SOURCES:
 
 TODO:
 * zet on ascii using bookmark/search and subsection within this part of the TLCL book
+* zet on "class of programs called `pagers`"
