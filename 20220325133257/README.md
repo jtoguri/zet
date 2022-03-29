@@ -26,6 +26,6 @@
   * `-t` sort by modification time
   * `-r` `--reverse` display results in reverse order
 <!-- -->
-* `file`: determine file type
+* `file`: print a brief description of the file's contents, determine file type
 
 * `less`: view file contents
