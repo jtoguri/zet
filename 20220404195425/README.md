@@ -13,7 +13,8 @@ Programs' results are sent to standard output and their status messages are sent
 
 Originally I/O happened via a physically connected system console but standard streams abstract this. When a command is executed via an interactive shell, the streams are typically connected to the text terminal on which the shell is running, but can be changed with redirection or a pipeline. More generally, a child process inherits the standard streams of its parent process.
 
-(See also: [I/O Redirection](link))
+RELATED:
+* [I/O Redirection [20220405131036]](https://github.com/jtoguri/zet/tree/main/20220405131036)
 
 SOURCES:
 * [Standard streams - wikipedia](https://en.wikipedia.org/wiki/Standard_streams)
