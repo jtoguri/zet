@@ -1,4 +1,4 @@
-# I/O Redirection
+# Standard Stream Redirection
 
 I/O redirection *allows us to change where output goes and where input comes from* (normally output goes to the screen and input comes from the keyboard)
 
