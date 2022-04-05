@@ -54,3 +54,21 @@ options:
   * `-f`...`--force` ignore nonexistant files and do not prompt, overrides `-i`
 
 * `ln`: create hard and symbolic links, `ln file link` creates a hard link while `ln -s item link` creates a symbolic link [Unix Links](https://github.com/jtoguri/zet/tree/main/20220329181828)
+
+* `type`: indicate how a command name is interpreted, displaying the kind of command the shell will execute
+
+* `which`: display which executable program will be executed, `which` only works for executable programs, not builtins nor aliases that are substitutes for actual executable programs
+
+* `help`: get help for shell builtins, many executable programs support a `--help` option
+
+* `man`: display a command's manual page, on most Linux systems `man` uses `less` to display the manual page
+  * **TODO: make a zet on the man page organizatioi**
+
+* `apropos`: display a list of appropriate commands, search the list of man pages for possible matches based on a search term
+  * *Note: `man` with `-k` option performs the same function*
+
+* `info`: display a command's info entry
+
+* `whatis`: display one-line manual page descriptions
+
+* `alias`: create an alias for a command, to remove an alias use `unalias`
