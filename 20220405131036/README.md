@@ -16,6 +16,9 @@ Standard error and standard output can be redirected to the same file with: `out
 
 If we want to throw stderr away we can use `output > /dev/null`. This file is a system device often referred to as a *bit bucket*, which accepts input and does nothing with it.
 
+## Redirecting Standard Input
+To redirect stdin we use the `<` redirect operator like so: `command < input.txt`, changing the source of stdin from the keyboard to the file `input.txt`
+
 SOURCES:
 * [TLCL - Willliam Shotts p. 55-58](https://linuxcommand.org/tlcl.php)
 
