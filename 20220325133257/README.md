@@ -72,3 +72,5 @@ options:
 * `whatis`: display one-line manual page descriptions
 
 * `alias`: create an alias for a command, to remove an alias use `unalias`
+
+* `cat`: reads one or more files and copies them to stdout (**Link the zet on cat**)
