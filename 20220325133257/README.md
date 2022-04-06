@@ -74,3 +74,18 @@ options:
 * `alias`: create an alias for a command, to remove an alias use `unalias`
 
 * `cat`: reads one or more files and copies them to stdout (**Link the zet on cat**)
+
+* `uniq`: accepts a sorted list of data from either standard input or a single filename argument and, by default, removes any duplicates from the list (often used with `sort`) (should prob consult man pages for useful options like `-d`)
+
+* `wc`: (word count) is used to display the number of lines, words, and bytes contained in files (again consult man pages for useful options)
+
+* `grep`: used to find text patterns within files, used like: `grep pattern [file...]`, it prints out the lines containing the pattern, (currently only know how to use it for simple text matches but will learn to use it with regular expressions as well)
+options:
+  * `-i` to ignore case when performing search (normally searches are case sensitive)
+  * `-v` to print only lines that do not contain the matching pattern
+
+* `head` and `tail`: to print only the first or last 10 lines of a file or command (if command need to pipe stdout to `head`/`tail`)
+options:
+  * `-n` to specify the number of lines
+
+* `tee`: creates a "tee" fitting on our pipe, reading standard input and copying it to both standard output (allowing the data to continue down the pipeline) and to one or more files. Useful for capturing a pipeline's contents at an intermediate stage of processing
