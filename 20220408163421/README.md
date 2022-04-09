@@ -12,5 +12,7 @@ There are two common traps when specifying the output requirements of a problem:
 
 Finding the right formulation for your problem is an important part of solving it, studying the definitions of classic algorithm problems will help you recognize when someone else has thought about similar problems before you.
 
+*Modeling* is the art of formulating your application in terms of precisely described, well-understood problems. Proper modeling is the key to applying algorithmic design techniques to real-world problems. It can eliminate the need to design/implement algorithms, by relating to what has been done before. Most algorithms are designed to work on rigorously defined *abstract structures* such as permutations, graphs, and sets. It is important to learn to describe your problem abstractly, in terms of procedures on such fundamental structures.
+
 SOURCES:
 * TADM - Skiena
