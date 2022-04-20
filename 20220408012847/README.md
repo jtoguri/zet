@@ -8,3 +8,6 @@ A sorting algorithm that starts with a single element (thus trivially forming a 
 
 SOURCES:
 * TADM - Skiena
+
+TODO:
+* make tagging system for algorithm solutions
