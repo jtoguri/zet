@@ -34,3 +34,6 @@ Each of the abstract structures described above can be thought about recursively
 
 SOURCES:
 * TADM - Skiena
+
+TODO:
+* Go in-depth on each of the combinaorial objects
